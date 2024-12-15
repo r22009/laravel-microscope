@@ -40,6 +40,7 @@ trait CommandsRegistry
         Commands\CheckEmptyComments::class,
         Commands\CheckExtraSemiColons::class,
         Commands\EnforceArrowFunctions::class,
+        Commands\CheckUnusedControllerMethods::class,
     ];
 
     private function registerCommands()
